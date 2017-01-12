@@ -8,7 +8,3 @@ f=open("check.jpeg","wb")
 f.write(res.content)
 f.close()
 
-import os
-from IPython.display import Image
-Image("check.jpeg")
-
